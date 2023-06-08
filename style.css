@@ -1,0 +1,105 @@
+body{
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+*
+{
+    font-family:"Poppins";
+}
+h1 {
+    color: lime;
+    font-weight: 500;
+    margin: 0px;
+}
+h3 {
+    color: white;
+    font-weight: 500;
+    margin: 0px;
+}
+
+p {
+    color: white;
+    font-weight: 200;
+    margin: 0px;
+}
+
+button {
+    margin: 15px 0px;
+    cursor: pointer;
+  }
+
+.container{
+    background: rgb(0, 0, 0, 0.5);
+    padding: 60px;
+    padding-bottom: 80px;
+    border-radius: 1rem;
+    margin: 30px 300px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container{
+        padding: 30px;
+        margin: 30px 100px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .container{
+        padding: 20px;
+        margin: 30px 100px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .container{
+        padding: 20px;
+        margin: 30px 50px;
+    }
+}
+
+.testo-centrato {
+    text-align: center;
+}
+
+.logo{
+    max-width: 25%;
+}
+
+.button-row{
+    background-color: lime;
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
+
+.checkbox-nome{
+    display: flex;
+    gap: 10px;
+    height: 30px
+}
+
+.prog {
+    height:24px;
+    /* width:40%; */
+    border-radius: 6px;
+}
+
+.prog-gino{
+    background-color: orange;
+    width:40%
+}
+
+.prog-mike{
+    background-color: green;
+    width:70%
+}
+
+.prog-fede{
+    background-color: brown;
+    width:20%
+}
+
+.monopattino{
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
